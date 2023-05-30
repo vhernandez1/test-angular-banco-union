@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "test-angular-banco-union"
+    }
+  },
+  "defaultProject": "test-angular-banco-union",
+  "cli": {
+    "analytics": "aa8d22ba-cf52-4dc6-93c2-7480b31ce4fd"
+  }
 }
