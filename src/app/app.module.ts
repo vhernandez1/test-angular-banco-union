@@ -20,6 +20,7 @@ import { ClienteTableComponent } from './component/cliente-table/cliente-table.c
 import { DesempehnoConsultorComponent } from './component/desempehno-consultor/desempehno-consultor.component';
 import { ListConsultoresComponent } from './component/list-consultores/list-consultores.component';
 import { HomeComponent } from './component/home/home.component';
+import { MenuComponent } from './component/menu/menu.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { HomeComponent } from './component/home/home.component';
     ClienteTableComponent,
     DesempehnoConsultorComponent,
     ListConsultoresComponent,
-    HomeComponent
+    HomeComponent,
+    MenuComponent
   ],
   imports: [
     BrowserModule,
