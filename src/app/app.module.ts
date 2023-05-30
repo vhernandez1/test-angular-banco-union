@@ -19,13 +19,15 @@ import { MatDialogModule } from '@angular/material/dialog';
 import { ClienteTableComponent } from './component/cliente-table/cliente-table.component';
 import { DesempehnoConsultorComponent } from './component/desempehno-consultor/desempehno-consultor.component';
 import { ListConsultoresComponent } from './component/list-consultores/list-consultores.component';
+import { HomeComponent } from './component/home/home.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ClienteTableComponent,
     DesempehnoConsultorComponent,
-    ListConsultoresComponent
+    ListConsultoresComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
