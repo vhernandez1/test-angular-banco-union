@@ -17,11 +17,13 @@ import { MatSelectModule } from '@angular/material/select';
 import { MatTableModule } from '@angular/material/table';
 import { MatDialogModule } from '@angular/material/dialog';
 import { ClienteTableComponent } from './component/cliente-table/cliente-table.component';
+import { DesempehnoConsultorComponent } from './component/desempehno-consultor/desempehno-consultor.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ClienteTableComponent
+    ClienteTableComponent,
+    DesempehnoConsultorComponent
   ],
   imports: [
     BrowserModule,
