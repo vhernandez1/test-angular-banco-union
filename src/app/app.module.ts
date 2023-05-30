@@ -16,10 +16,12 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatSelectModule } from '@angular/material/select';
 import { MatTableModule } from '@angular/material/table';
 import { MatDialogModule } from '@angular/material/dialog';
+import { ClienteTableComponent } from './component/cliente-table/cliente-table.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ClienteTableComponent
   ],
   imports: [
     BrowserModule,
